@@ -1,6 +1,5 @@
-package main.java.com.lmartino.singleResponsibility.after;
+package com.lmartino.singleResponsibility.after;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,7 +11,7 @@ public class Book {
     private List<String> pages;
     private int currentPageIndex = 0;
 
-    public Book(String title, String author, ArrayList<String> pages) {
+    public Book(String title, String author, List<String> pages) {
         this.title = title;
         this.author = author;
         this.pages = pages;
@@ -30,15 +29,6 @@ public class Book {
         if (currentPageIndex < pages.size() - 1) {
             currentPageIndex++;
         }
-    }
-
-    public String printCurrentPage(String displayType) {
-        if (displayType.equals("plainText")) {
-            return pages.get(currentPageIndex);
-        } else if (displayType.equals("html")) {
-            return "<div class='page'>" + pages.get(currentPageIndex) + "</div>";
-        }
-        return "Unknown type";
     }
 
     public int getCurrentPage() {
