@@ -16,11 +16,12 @@ the four rules of simple design:
     * Object, class, module, variable and method names should clearly represent their purpose.
     * Minimal classes and methods.
     
-These rules helps our system's adherence to the primary OO goals of low coupling and high cohesion.
+These rules help our system's adherence to the primary OO goals of low coupling and high cohesion.
 
 ### Single Responsibility Principle (Actors and high level architecture)
 ![alt text](https://lostechies.com/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg)
-The theoretical explanation is *There is one and only one reason to change a class*. 
+
+The theoretical explanation is that *There is one and only one reason to change a class*. 
 This means that we should start to think small. Each complex problem cannot be easily solved as a whole.
 It's much easier to divide the problem in smaller sub-problems. Each sub-problem can be tackled separately.
 Now we should start thinking in tems of "divide et imperat".
@@ -35,6 +36,8 @@ Then the code will be:
 * Better maintainable and extendable
 
 ### Open Closed Principle (Class design and feature extensions)
+![alt text](https://lostechies.com/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg)
+
 The theoretical explanation is *software entities should be open for extension but closed for modification*.
 Such an entity can allow its behavior to be altered without altering its source code.
 There are several ways to extend a class/entity:
@@ -44,17 +47,23 @@ There are several ways to extend a class/entity:
 * Proxy implementation
 
 ### Liskov Substitution Principle (Subtyping and inheritance)
+![alt text](https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg)
+
 Functions that use references to base classes must be able to use objects of derived classes without knowing it
 Child classes should never break the parent class type definitions. It's in strong relation with Open Closed Principle.
 In fact a violation of LSP is a latent violation of OCP.
 
 ### Interface Segregation Principle (Business logic to clients communication)
+![alt text](https://lostechies.com/derickbailey/files/2011/03/InterfaceSegregationPrinciple_60216468.jpg)
+
 In all modular applications there must be some kind of interface that the client rely on.
 The scope is the communication to the client code on how to use the module.
 We could take the approach to break the interface into pieces, specialized to each implementation.
 This principle states that *no client should be forced to depend on methods it does not use*.
 
 ### Dependency Inversion Principle
+![alt text](https://lostechies.com/derickbailey/files/2011/03/DependencyInversionPrinciple_0278F9E2.jpg)
+
 The principle states:
 
 1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
