@@ -18,7 +18,7 @@ the four rules of simple design:
     
 These rules helps our system's adherence to the primary OO goals of low coupling and high cohesion.
 
-### Single Responsibility Principle
+### Single Responsibility Principle (Actors and high level architecture)
 The theoretical explanation is *There is one and only one reason to change a class*. 
 This means that we should start to think small. Each complex problem cannot be easily solved as a whole.
 It's much easier to divide the problem in smaller sub-problems. Each sub-problem can be tackled separately.
@@ -33,7 +33,7 @@ Then the code will be:
 * Better testable
 * Better maintainable and extendable
 
-### Open Closed Principle
+### Open Closed Principle (Class design and feature extensions)
 The theoretical explanation is *software entities should be open for extension but closed for modification*.
 Such an entity can allow its behavior to be altered without altering its source code.
 There are several ways to extend a class/entity:
@@ -42,8 +42,17 @@ There are several ways to extend a class/entity:
 * Composition
 * Proxy implementation
 
-### Liskov Substitution Principle
+### Liskov Substitution Principle (Subtyping and inheritance)
 Functions that use references to base classes must be able to use objects of derived classes without knowing it
+Child classes should never break the parent class type definitions. It's in strong relation with Open Closed Principle.
+In fact a violation of LSP is a latent violation of OCP.
+
+### Interface Segregation Principle (Business logic to clients communication)
+In all modular applications there must be some kind of interface that the client rely on.
+The scope is the communication to the client code on how to use the module.
+We could take the approach to break the interface into pieces, specialized to each implementation.
+This principle states that *no client should be forced to depend on methods it does not use*.
+
 
 # Resources
 
