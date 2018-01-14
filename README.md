@@ -53,6 +53,8 @@ The scope is the communication to the client code on how to use the module.
 We could take the approach to break the interface into pieces, specialized to each implementation.
 This principle states that *no client should be forced to depend on methods it does not use*.
 
+### Dependency Inversion
+
 
 # Resources
 
