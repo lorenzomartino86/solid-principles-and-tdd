@@ -19,6 +19,7 @@ the four rules of simple design:
 These rules helps our system's adherence to the primary OO goals of low coupling and high cohesion.
 
 ### Single Responsibility Principle (Actors and high level architecture)
+![alt text](https://lostechies.com/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg)
 The theoretical explanation is *There is one and only one reason to change a class*. 
 This means that we should start to think small. Each complex problem cannot be easily solved as a whole.
 It's much easier to divide the problem in smaller sub-problems. Each sub-problem can be tackled separately.
