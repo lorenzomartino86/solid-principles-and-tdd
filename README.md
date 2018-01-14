@@ -53,8 +53,17 @@ The scope is the communication to the client code on how to use the module.
 We could take the approach to break the interface into pieces, specialized to each implementation.
 This principle states that *no client should be forced to depend on methods it does not use*.
 
-### Dependency Inversion
+### Dependency Inversion Principle
+The principle states:
 
+1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
+2. Abstractions should not depend on details. Details should depend on abstractions.
+
+Instead of a high-level module depending on a low-level module, both should depend on an abstraction.
+While dependency inversion is more focused on the structure of your code, 
+dependency injection is how the code functionally works. 
+Spring is using dependency injection to assemble your application, dependency
+inversion is what decouples your code so Spring can use dependency injection at run time.
 
 # Resources
 
