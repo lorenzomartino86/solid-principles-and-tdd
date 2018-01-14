@@ -5,9 +5,9 @@ Refactoring is done using the TDD (Test Driven Development) technique.
 
 ### Test Driven Development
 It's a software development process that relies on the repetition of a very short development cycle:
-* Requirements are turned into very specific test cases
-* Software is improved to pass the new tests
-* The growing code must be cleaned up regularly during test-driven development with
+1. Requirements are turned into very specific test cases.
+2. Software is improved to pass the new tests.
+3. The growing code must be cleaned up regularly during test-driven development with
 the four rules of simple design:
     * Writing and running continuously all the tests.
     * Duplication must be removed.
