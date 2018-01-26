@@ -1,7 +1,7 @@
 # SOLID Principles and TDD
 
 A collection of use cases in which I apply the SOLID principles during refactoring phase. 
-Refactoring is done using the TDD (Test Driven Development) technique.
+In my coding tasks I was supported by test driven development approach.
 
 ### Test Driven Development
 It's a software development process that relies on the repetition of a very short development cycle:
@@ -59,7 +59,7 @@ There are several ways to extend a class/entity:
 * Composition
 * Proxy implementation
 
-*Real World situation:* The smartphone has app stores app that let you extend the base
+*Real World situation:* The smartphone has app stores that let you extend the base
 functionality of the phone. It ships with the basics (camera operation, actual calls, etc.), 
 but via the app store you can 'extend' the phone's capabilities to allow you to manage
 the todo list, play video games, etc.
