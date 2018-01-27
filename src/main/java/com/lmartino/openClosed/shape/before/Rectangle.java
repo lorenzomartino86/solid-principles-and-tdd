@@ -1,4 +1,4 @@
-package com.lmartino.openClosed.before;
+package com.lmartino.openClosed.shape.before;
 
 public class Rectangle {
 	

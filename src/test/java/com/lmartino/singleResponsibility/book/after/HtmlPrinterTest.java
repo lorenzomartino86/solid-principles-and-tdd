@@ -1,4 +1,4 @@
-package com.lmartino.singleResponsibility.after;
+package com.lmartino.singleResponsibility.book.after;
 
 import org.junit.Test;
 

@@ -18,3 +18,7 @@ Then the code will be:
 * More robust
 * Better testable
 * Better maintainable and extendable
+
+#### Common Refactorings
+- Extract Class
+- Move Method

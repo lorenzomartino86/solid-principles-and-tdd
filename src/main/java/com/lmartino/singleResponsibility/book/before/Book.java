@@ -1,4 +1,4 @@
-package main.java.com.lmartino.singleResponsibility.before;
+package main.java.com.lmartino.singleResponsibility.book.before;
 
 import java.util.ArrayList;
 import java.util.List;

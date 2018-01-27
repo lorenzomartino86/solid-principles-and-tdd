@@ -13,3 +13,8 @@ There are several ways to extend a class/entity:
 functionality of the phone. It ships with the basics (camera operation, actual calls, etc.), 
 but via the app store you can 'extend' the phone's capabilities to allow you to manage
 the todo list, play video games, etc.
+
+#### Common Refactorings
+- Extract Interface / Apply Strategy Pattern
+- Parameterize Method
+- Form Template Method

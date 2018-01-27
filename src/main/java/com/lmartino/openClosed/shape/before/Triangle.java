@@ -1,6 +1,6 @@
-package com.lmartino.openClosed.after;
+package com.lmartino.openClosed.shape.before;
 
-public class Triangle implements Shape {
+public class Triangle {
 	private int height;
 	private int base;
 	
@@ -15,10 +15,5 @@ public class Triangle implements Shape {
 
 	public int getBase() {
 		return base;
-	}
-
-
-	public double calculateArea() {
-		return base * height / 2.0;
 	}
 }

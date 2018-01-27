@@ -1,4 +1,4 @@
-package com.lmartino.openClosed.after;
+package com.lmartino.openClosed.shape.after;
 
 import org.junit.Test;
 

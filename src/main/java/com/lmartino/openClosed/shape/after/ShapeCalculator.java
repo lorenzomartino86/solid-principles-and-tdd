@@ -1,4 +1,4 @@
-package com.lmartino.openClosed.before;
+package com.lmartino.openClosed.shape.after;
 
 public class ShapeCalculator {
 
@@ -11,6 +11,10 @@ public class ShapeCalculator {
 			return triangleArea((Triangle) shape);
 		}
 		throw new UnsupportedOperationException();
+	}
+
+	public double calculateArea(Shape shape) {
+		return shape.calculateArea();
 	}
 
 	private double triangleArea(Triangle triangle) {

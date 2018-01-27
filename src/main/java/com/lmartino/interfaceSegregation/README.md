@@ -9,3 +9,7 @@ This principle states that *no client should be forced to depend on methods it d
 *Real World situation:* When you check out the menu at the restaurant you see something that's just called
 'soup of the day'. Why? Because the soup changes a lot and there's no sense reprinting the menus every day.
  Interested clients use the interface (asking the server), while the others don't need to be concerned.
+ 
+ 
+#### Common Refactorings
+- Extract Interface

@@ -16,3 +16,9 @@ While dependency inversion is more focused on the structure of your code,
 dependency injection is how the code functionally works. 
 Spring is using dependency injection to assemble your application, dependency
 inversion is what decouples your code so Spring can use dependency injection at run time.
+
+#### Common Refactorings
+- Extract Class
+- Extract Interface / Apply Strategy Pattern
+- Extract Method
+- Introduce Service Locator / Container

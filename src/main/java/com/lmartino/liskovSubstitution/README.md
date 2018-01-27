@@ -9,3 +9,8 @@ functionality from a client's point of view.
 
 *Real World situation:* If you cook youserlf a stew, you'd only put things in there that were edible
 because you want to eat the stew without asking yourself anytime 'is this edible'.
+
+#### Common Refactorings
+- Collapse Hierarchy
+- Pull Up / Push Down Field
+- Pull Up / Push Down Method
