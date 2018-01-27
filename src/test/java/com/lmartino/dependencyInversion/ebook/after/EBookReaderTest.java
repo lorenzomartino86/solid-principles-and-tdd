@@ -1,4 +1,4 @@
-package com.lmartino.dependencyInversion.after;
+package com.lmartino.dependencyInversion.ebook.after;
 
 import org.junit.Test;
 

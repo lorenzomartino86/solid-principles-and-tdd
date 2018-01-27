@@ -1,4 +1,4 @@
-package com.lmartino.dependencyInversion.before;
+package com.lmartino.dependencyInversion.ebook.before;
 
 public class PDFBook {
 

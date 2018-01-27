@@ -1,4 +1,4 @@
-package com.lmartino.dependencyInversion.after;
+package com.lmartino.dependencyInversion.ebook.after;
 
 /**
  * Created by lore on 14/01/18.
