@@ -49,7 +49,7 @@ Then the code will be:
 
 
 ### Open Closed Principle (Class design and feature extensions)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg)
+![alt text](etc/ocp.jpg?raw=true "Open Closed")
 
 The theoretical explanation is *software entities should be open for extension but closed for modification*.
 Such an entity can allow its behavior to be altered without altering its source code.
@@ -65,7 +65,7 @@ but via the app store you can 'extend' the phone's capabilities to allow you to 
 the todo list, play video games, etc.
 
 ### Liskov Substitution Principle (Subtyping and inheritance)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg)
+![alt text](etc/lsp.jpg?raw=true "Liskov Substitution")
 
 Functions that use references to base classes must be able to use objects of derived classes without knowing it
 Child classes should never break the parent class type definitions. It's in strong relation with Open Closed Principle.
@@ -77,7 +77,7 @@ functionality from a client's point of view.
 because you want to eat the stew without asking yourself anytime 'is this edible'.
 
 ### Interface Segregation Principle (Business logic to clients communication)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/InterfaceSegregationPrinciple_60216468.jpg)
+![alt text](etc/isp.jpg?raw=true "Interface Segregation")
 
 In all modular applications there must be some kind of interface that the client rely on.
 The scope is the communication to the client code on how to use the module.
@@ -89,7 +89,7 @@ This principle states that *no client should be forced to depend on methods it d
  Interested clients use the interface (asking the server), while the others don't need to be concerned.
 
 ### Dependency Inversion Principle
-![alt text](https://lostechies.com/derickbailey/files/2011/03/DependencyInversionPrinciple_0278F9E2.jpg)
+![alt text](etc/dip.jpg?raw=true "Dependency Inversion")
 
 The principle states:
 
