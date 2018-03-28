@@ -27,7 +27,7 @@ The SOLID principles are five principles of class design. They are:
 * The Dependency Inversion Principle
 
 ### Single Responsibility Principle (Actors and high level architecture)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg)
+![alt text](etc/srp.jpg?raw=true "Single Responsibility")
 
 Consider a class that opens a connection to the database, pulls out some table data and writes the data to a file.
 This class has multiple reasons to change: adoption of a new database, modified file output format, etc. 
