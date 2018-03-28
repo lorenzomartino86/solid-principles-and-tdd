@@ -1,5 +1,5 @@
 ### Single Responsibility Principle (Actors and high level architecture)
-![alt text](../../../../../etc/srp.jpg?raw=true "Single Responsibility Principle")
+![alt text](../../../../../../etc/srp.jpg?raw=true "Single Responsibility Principle")
 
 Consider a class that opens a connection to the database, pulls out some table data and writes the data to a file.
 This class has multiple reasons to change: adoption of a new database, modified file output format, etc. 
