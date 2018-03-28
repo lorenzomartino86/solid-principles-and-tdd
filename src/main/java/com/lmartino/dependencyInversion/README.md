@@ -1,5 +1,5 @@
 ### Dependency Inversion Principle
-![alt text](https://lostechies.com/derickbailey/files/2011/03/DependencyInversionPrinciple_0278F9E2.jpg)
+![alt text](etc/dip.jpg?raw=true "Dependency Inversion")
 
 The principle states:
 

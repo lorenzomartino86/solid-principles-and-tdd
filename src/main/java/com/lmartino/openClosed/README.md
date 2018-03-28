@@ -1,5 +1,5 @@
 ### Open Closed Principle (Class design and feature extensions)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg)
+![alt text](etc/ocp.jpg?raw=true "Open Closed")
 
 The theoretical explanation is *software entities should be open for extension but closed for modification*.
 Such an entity can allow its behavior to be altered without altering its source code.

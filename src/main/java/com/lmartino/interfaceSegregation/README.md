@@ -1,5 +1,5 @@
 ### Interface Segregation Principle (Business logic to clients communication)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/InterfaceSegregationPrinciple_60216468.jpg)
+![alt text](etc/isp.jpg?raw=true "Interface Segregation")
 
 In all modular applications there must be some kind of interface that the client rely on.
 The scope is the communication to the client code on how to use the module.

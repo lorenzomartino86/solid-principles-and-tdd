@@ -1,5 +1,5 @@
 ### Liskov Substitution Principle (Subtyping and inheritance)
-![alt text](https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg)
+![alt text](etc/lsp.jpg?raw=true "Liskov Substitution")
 
 Functions that use references to base classes must be able to use objects of derived classes without knowing it
 Child classes should never break the parent class type definitions. It's in strong relation with Open Closed Principle.
