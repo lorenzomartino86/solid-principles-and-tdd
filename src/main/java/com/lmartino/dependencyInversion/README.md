@@ -1,5 +1,5 @@
 ### Dependency Inversion Principle
-![alt text](etc/dip.jpg?raw=true "Dependency Inversion")
+![alt text](../../../../../etc/dip.jpg?raw=true "Dependency Inversion")
 
 The principle states:
 
